@@ -7,8 +7,7 @@ I’m **Awais Anjum**, a Software Engineering graduate with a strong interest in
 ## 🌐 Live Portfolio
 
 **[Visit My Portfolio](#)**
-
-> Replace the link above with your Netlify deployment URL once your website is live.
+https://awais-anjum-portfolio.netlify.app/
 
 ---
 
@@ -196,7 +195,7 @@ If you’re working on an interesting project or looking for a motivated junior 
 
 ## 📫 Connect With Me
 
-* **Portfolio:** [Your Portfolio URL](#)
+* **Portfolio:** https://awais-anjum-portfolio.netlify.app/(#)
 * **GitHub:** [https://github.com/Mrawaisanjum56](#)
 * **LinkedIn:** [https://www.linkedin.com/in/awais-anjum-892275322/](#)
 * **Email:** [](#)
