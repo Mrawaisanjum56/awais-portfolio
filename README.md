@@ -24,7 +24,7 @@ The site can also be deployed by dragging the repository folder into Netlify Dro
 
 ## Personal details to update
 
-The contact email is intentionally a placeholder because no email address was supplied. Replace `your.email@example.com` in `index.html` before publishing. The GitHub and LinkedIn links point to the supplied public profiles.
+The contact form uses [FormSubmit](https://formsubmit.co/) and currently sends to `awaisryk56@gmail.com`. Change the form `action` in `index.html` if you want to use another email address. FormSubmit may require a one-time email confirmation before the form is active. The GitHub and LinkedIn links point to the supplied public profiles.
 
 ## Built with
 
