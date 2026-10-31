@@ -33,3 +33,20 @@ const updateHeader = () => {
 };
 window.addEventListener('scroll', updateHeader, { passive: true });
 updateHeader();
+
+document.querySelectorAll('.door').forEach((door) => {
+  door.addEventListener('click', (event) => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const target = door.getAttribute('href');
+    if (!target) return;
+
+    event.preventDefault();
+    door.classList.remove('is-opening');
+    void door.offsetWidth;
+    door.classList.add('is-opening');
+    window.setTimeout(() => {
+      window.location.hash = target.replace('#', '');
+    }, 420);
+  });
+});
